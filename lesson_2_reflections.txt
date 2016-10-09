@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creats hidden files within the current directory that will track all changes from the files in that directory and all subdirectories as you commit changes.
+
+You need to run the git init command to create the reposiotry to track the versions of this repository so we can realize all the benefits we discussed in the first lesson.
