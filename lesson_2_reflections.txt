@@ -3,3 +3,31 @@ What happens when you initialize a repository? Why do you need to do it?
 It creats hidden files within the current directory that will track all changes from the files in that directory and all subdirectories as you commit changes.
 
 You need to run the git init command to create the reposiotry to track the versions of this repository so we can realize all the benefits we discussed in the first lesson.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory and repository because it tracks the uncommited changes to the repository and the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add specific files to logically commit each change indivudually while being able to make changes to several files at the same time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be easy to organize your history because you can have several branches with different versions/alternative code with each branches individual history and the ability to comapre commits between the two branches to see differences.
+
+Branches will be helpful when you are wanting to try something epxerimental for your project.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagram helps visualize the branch structure by visualizing the commits we make on each branch, how each branch was broken off and at what point in the project plus what has changed since then. It also help you visualize commits that arent reachable by a particular branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is merging the code of one branch with the code of another. The diagram shows them as merging to one commit rather than continuing one branch because the merged commit has all of the commits from every branch is chronological order.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of git automatic merging is that it can save a lot time and merge basic revisions together. It also means that new features and experiments can be moved into production relavtively easy without having to rework production. It also allows for cocurrent work on different scrums with the ability to easily merge the branches.
+
+One of the cons is that automatic merges could have slightly unexpected results.
